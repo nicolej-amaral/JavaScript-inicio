@@ -27,5 +27,4 @@ function somarNumeros() {
 
         alert("A soma dos números é: " + soma);
 
-    }
-       // somarNumeros();
+    };

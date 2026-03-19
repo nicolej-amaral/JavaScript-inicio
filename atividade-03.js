@@ -1,32 +1,32 @@
-function ganhoBruto(){
-    
-        
+function ganhoBruto() {
+
+
 
     let somaganho = 0;
     let somagasto = 0;
     let total = 0;
 
-    for(let i= 1; i<3; i++){
-      
+    for (let i = 1; i < 13; i++) {
 
-         let ganho = parseFloat (prompt("Digite o ganho bruto do mês " +i));
-        let gasto = parseFloat (prompt("Digite os gastos do mês " +i));
+
+        let ganho = parseFloat(prompt("Digite o ganho bruto do mês " + i));
+        let gasto = parseFloat(prompt("Digite os gastos do mês " + i));
 
         somaganho = ganho + somaganho;
         somagasto = gasto + somagasto;
     }
 
-        total = somaganho - somagasto;
+    total = somaganho - somagasto;
 
-        if(!isNaN(total<somaganho)){
+    if (total > 0) {
 
-             
-              alert("Você teve lucro!");
+        alert("O seu total foi de: " + total);
+        alert("Você teve lucro!");
 
-        }else{
-            alert("Você teve prejuízo...");
-        };
+    } else {
+        alert("O seu total foi de: " + total);
+        alert("Você teve prejuízo...");
+    };
 
 
 };
-ganhoBruto()
