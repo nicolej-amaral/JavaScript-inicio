@@ -29,11 +29,11 @@ function picoleteria() {
     } else if (escolha == "h") {
         alert("Você escolheu o sabor Brownie que custa R$4,00");
 
-    } else (escolha == "i"); {
+    } else if(escolha == "i") {
         alert("Você escolheu o sabor Hawaiano que custa R$5,00");
 
     }
 
-    }
+    };
 
 
