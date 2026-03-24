@@ -7,6 +7,12 @@ function imparPar() {
 
 if(numero % 2 == 0){
 
-    
-}
+numero++;
+    alert("O número par agora é " + numero);
+
+}else{
+    numero--
+    alert("O número par agora é " + numero);
+
+};
 };
