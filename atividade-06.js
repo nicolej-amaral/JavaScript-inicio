@@ -7,4 +7,4 @@ function alfabetica() {
     }else{
         alert("A sua letra é uma vogal!");
     };
-};
+}
